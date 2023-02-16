@@ -21,3 +21,8 @@ I learned about billing, security, and architecture of AWS with respect to secur
 •	I have my AWS free tier active and resources needed for this bootcamp is accessible to me.
 
 •	Learned about TOGAF and C4 Model and few others, those all are created to tackle one problem i.e “How to break a complex Architecture in to a simpler task”
+
+
+
+![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/Logical%20Diagram.jpeg)
+https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/Logical%20Diagram.jpeg
