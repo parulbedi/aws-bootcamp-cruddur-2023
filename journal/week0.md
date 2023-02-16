@@ -7,7 +7,11 @@ Before jumping into the bootcamp there are few services where I have to create a
 I learned about billing, security, and architecture of AWS with respect to security.
 ### Few key points which I learned and were very crucial while working with AWS or any other cloud provider:
 •	Pricing of services or resources vary and dependent of region to region
+
 •	Setting billing alarm so that we remain under our desired budget and don’t get huge bills.
+
 •	Attaching Administrator Access & billing policy to IAM user
-•	I have my AWS free tier active a
+
+•	I have my AWS free tier active and resources needed for this bootcamp is accessible to me.
+
 •	Learned about TOGAF and C4 Model and few others, those all are created to tackle one problem i.e “How to break a complex Architecture in to a simpler task”
