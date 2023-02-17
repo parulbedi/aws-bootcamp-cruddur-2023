@@ -34,3 +34,10 @@ logical design of cruddur web-app. worked aorund with this tool for a day and un
 
 just a basic design (On a Napkin) 😜. Will draw a daigram in lucid charts soon.
 ![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/napkin_design_v2.jpg)
+
+### Got stuck when i was not able to see billing details from IAM user account
+
+I followed 2 steps to configure the settings and then billibg dashboard was accessible in IAM user account (thats me)
+
+#### Step 1: Activate IAM Access
+to acheive this i followed the following steps:
