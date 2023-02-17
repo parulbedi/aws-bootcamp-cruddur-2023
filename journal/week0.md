@@ -38,6 +38,7 @@ it can be break down in to 4 main areas:
 ![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/Logical%20Diagram.jpeg)
 
 shareable link added below:
+
 https://lucid.app/lucidchart/3163b124-8e5f-4677-acc6-d78f701e6522/edit?viewport_loc=-790%2C-176%2C2994%2C1495%2C0_0&invitationId=inv_2a05406c-3db3-4e44-8644-d9f71e0e5070
 
 
