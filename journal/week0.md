@@ -50,5 +50,5 @@ to acheive this i followed the following steps:
 ##### b. Scroll down to --> "IAM User and Role access to billing Information" Section and Click on "Edit"
 ![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/msedge_Gj9e2eH04r.png)
 
-##### c. Check
+##### c. Click on the checkbox and click on "Update"
 ![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/msedge_E78l88O6lr.png)
