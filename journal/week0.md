@@ -39,7 +39,7 @@ just a basic design (On a Napkin) 😜. Will draw a daigram in lucid charts soon
 
 ![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/msedge_5FyBJzPN9.png)
 
-I followed 2 steps to configure the settings and then billibg dashboard was accessible in IAM user account (thats me)
+I followed 2 steps to configure the settings and then billing dashboard was accessible in IAM user account (that is my IAM account)
 
 #### Step 1: Activate IAM Access
 
