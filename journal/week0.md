@@ -37,10 +37,15 @@ just a basic design (On a Napkin) 😜. Will draw a daigram in lucid charts soon
 
 ### 4. Got stuck when i was not able to see billing details from IAM user account
 
+![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/msedge_5FyBJzPN9.png)
+
 I followed 2 steps to configure the settings and then billibg dashboard was accessible in IAM user account (thats me)
 
 #### Step 1: Activate IAM Access
 
 to acheive this i followed the following steps:
-##### Login to the root account, Click on --> root --> Account
+##### a. Login to the root account, Click on --> root --> Account
+![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/msedge_zHnqsOcsew.png)
+
+##### a. Login to the root account, Click on --> root --> Account
 ![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/msedge_zHnqsOcsew.png)
