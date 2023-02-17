@@ -16,18 +16,27 @@ I learned about billing, security, and architecture of AWS with respect to secur
 
 •	Setting billing alarm so that we remain under our desired budget and don’t get huge bills.
 
-•	Attaching Administrator Access & billing policy to IAM user
+•	Attaching Administrator Access & billing policy to IAM user (i got stuck here,but found a way to how to get billing details in IAM user account)
 
 •	I have my AWS free tier active and resources needed for this bootcamp is accessible to me.
 
 •	Learned about TOGAF and C4 Model and few others, those all are created to tackle one problem i.e “How to break a complex Architecture in to a simpler task”
 
+•	Got to know about various section of billing dashboard alog with its other components including Cost explorer, AWS Calculator, Billing alerts
+
+
 
 ### 2. High Level Logical Diagram:
 
-logical design of cruddur web-app. worked aorund with this tool for a day and understand most of its options. 
+logical architecture design of micro blogging app - cruddur. worked around with this Lucid Charts tool for a day and understand most of its options. 
+it can be break down in to 4 main areas:
+1. Frontend -  Java Script
+2. Backend - Python
+3. Authentication - Cognito
+4. 3rd Party Caching - Momento
 
 ![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/Logical%20Diagram.jpeg)
+https://lucid.app/lucidchart/3163b124-8e5f-4677-acc6-d78f701e6522/edit?viewport_loc=-790%2C-176%2C2994%2C1495%2C0_0&invitationId=inv_2a05406c-3db3-4e44-8644-d9f71e0e5070
 
 
 ### 3. Napkin Design (Draft design):
