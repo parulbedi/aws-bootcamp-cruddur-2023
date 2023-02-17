@@ -76,3 +76,7 @@ to acheive this i followed the following steps:
 ##### c. Search for the following policies and attach to the IAM User
 --> AdministratorAccess
 ![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/msedge_MX6vHXVmr6.png)
+
+##### d. Logged in to my IAM User account. Now the billing dashboard is accessible
+![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/msedge_SGbPhsg43N.png)
+
