@@ -32,5 +32,5 @@ logical design of cruddur web-app. worked aorund with this tool for a day and un
 
 ### Napkin Design (Draft design):
 
-just a basic design (On a Napkin) 😜. Will draw a daigram in lucid charts 
-![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/Napkin%20Diagram.jpg)
+just a basic design (On a Napkin) 😜. Will draw a daigram in lucid charts soon.
+![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/napkin_design_v2.jpg)
