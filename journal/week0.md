@@ -40,4 +40,7 @@ just a basic design (On a Napkin) 😜. Will draw a daigram in lucid charts soon
 I followed 2 steps to configure the settings and then billibg dashboard was accessible in IAM user account (thats me)
 
 #### Step 1: Activate IAM Access
+
 to acheive this i followed the following steps:
+Login to the root account, Click on --> ### root --> ### Account
+![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/msedge_zHnqsOcsew.png)
