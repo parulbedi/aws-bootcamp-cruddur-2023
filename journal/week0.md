@@ -70,6 +70,6 @@ to acheive this i followed the following steps:
 ##### a. Search for IAM in search bar and click on Users"
 ![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/msedge_5FyBJzPN9r.png)
 
-##### a. Search for IAM in search bar and click on Users"
+##### b. Click on "Attach Policy Directly"
 ![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/msedge_xdPbM3pdC4.png)
 
