@@ -47,5 +47,5 @@ to acheive this i followed the following steps:
 ##### a. Login to the root account, Click on --> root --> Account
 ![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/msedge_zHnqsOcsew.png)
 
-##### a. Login to the root account, Click on --> root --> Account
-![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/msedge_zHnqsOcsew.png)
+##### a. Scroll down to --> "IAM User and Role access to billing Information" Section and Click on "Edit"
+![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/msedge_Gj9e2eH04r.png)
