@@ -64,3 +64,8 @@ to acheive this i followed the following steps:
 
 ##### c. Click on the checkbox and click on "Update"
 ![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/msedge_E78l88O6lr.png)
+
+#### Step 2: Assign Appropriate policy to the IAM User:
+
+##### a. Search for IAM in search bar and click on Users"
+![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/msedge_5FyBJzPN9r.png)
