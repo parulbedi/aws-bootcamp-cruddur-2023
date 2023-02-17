@@ -25,9 +25,12 @@ I learned about billing, security, and architecture of AWS with respect to secur
 
 ### High Level Logical Diagram:
 
+logical design of cruddur web-app. worked aorund with this tool for a day and understand most of its options. 
+
 ![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/Logical%20Diagram.jpeg)
 
 
 ### Napkin Design (Draft design):
 
+just a basic design (On a Napkin) 😜. Will draw a daigram in lucid charts 
 ![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/Napkin%20Diagram.jpg)
