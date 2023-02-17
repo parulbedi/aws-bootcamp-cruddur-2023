@@ -70,6 +70,9 @@ to acheive this i followed the following steps:
 ##### a. Search for IAM in search bar and click on Users"
 ![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/msedge_5FyBJzPN9r.png)
 
-##### b. Click on "Attach Policy Directly"
+##### b. Click on "Attach Policies Directly"
 ![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/msedge_xdPbM3pdC4.png)
 
+##### c. Search for the following policies and attach to the IAM User
+--> AdministratorAccess
+![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/msedge_MX6vHXVmr6.png)
