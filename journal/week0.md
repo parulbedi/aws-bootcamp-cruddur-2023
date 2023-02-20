@@ -35,7 +35,7 @@ it can be break down in to 4 main areas:
 3. Authentication - Cognito
 4. 3rd Party Caching - Momento
 
-![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/Logical%20Diagram.jpeg)
+![Architecture image](https://raw.githubusercontent.com/parulbedi/aws-bootcamp-cruddur-2023/main/screenshots/Logical%20Diagram.jpeg)
 
 shareable link added below:
 
@@ -45,11 +45,11 @@ https://lucid.app/lucidchart/3163b124-8e5f-4677-acc6-d78f701e6522/edit?viewport_
 ### 3. Napkin Design (Draft design):
 
 just a basic design (On a Napkin) 😜. Will draw a daigram in lucid charts soon.
-![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/napkin_design_v2.jpg)
+![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/screenshots/napkin_design_v2.jpg)
 
 ### 4. Got stuck when i was not able to see billing details from IAM user account
 
-![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/msedge_5FyBJzPN9.png)
+![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/screenshots/msedge_5FyBJzPN9.png)
 
 I followed 2 steps to configure the settings and then billing dashboard was accessible in IAM user account (that is my IAM account)
 
@@ -57,26 +57,26 @@ I followed 2 steps to configure the settings and then billing dashboard was acce
 
 to acheive this i followed the following steps:
 ##### a. Login to the root account, Click on --> root --> Account
-![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/msedge_zHnqsOcsew.png)
+![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/screenshots/msedge_zHnqsOcsew.png)
 
 ##### b. Scroll down to --> "IAM User and Role access to billing Information" Section and Click on "Edit"
-![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/msedge_Gj9e2eH04r.png)
+![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/screenshots/msedge_Gj9e2eH04r.png)
 
 ##### c. Click on the checkbox and click on "Update"
-![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/msedge_E78l88O6lr.png)
+![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/screenshots/msedge_E78l88O6lr.png)
 
 #### Step 2: Assign Appropriate policy to the IAM User:
 
 ##### a. Search for IAM in search bar and click on Users"
-![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/msedge_5FyBJzPN9r.png)
+![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/screenshots/msedge_5FyBJzPN9r.png)
 
 ##### b. Click on "Attach Policies Directly"
-![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/msedge_xdPbM3pdC4.png)
+![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/screenshots/msedge_xdPbM3pdC4.png)
 
 ##### c. Search for the following policies and attach to the IAM User
 --> AdministratorAccess
-![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/msedge_MX6vHXVmr6.png)
+![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/screenshots/msedge_MX6vHXVmr6.png)
 
 ##### d. Logged in to my IAM User account. Now the billing dashboard is accessible
-![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/msedge_SGbPhsg43N.png)
+![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/screenshots/msedge_SGbPhsg43N.png)
 
