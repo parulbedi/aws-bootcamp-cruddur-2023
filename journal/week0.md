@@ -35,7 +35,7 @@ it can be break down in to 4 main areas:
 3. Authentication - Cognito
 4. 3rd Party Caching - Momento
 
-![Architecture image](https://raw.githubusercontent.com/parulbedi/aws-bootcamp-cruddur-2023/main/screenshots/Logical%20Diagram.jpeg)
+![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/screenshots/Logical%20Diagram_v2.jpeg)
 
 shareable link added below:
 
