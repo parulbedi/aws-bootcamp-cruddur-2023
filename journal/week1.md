@@ -4,6 +4,8 @@
 
 ### Host OS/ gUEST OS Concept
 ![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/screenshots/hosted-hypervisor.png)
-•	Pricing of services or resources vary and dependent of region to region
 ## Running backend on port 4567 port by enabling it to public
 ## Building and then running container
+docker build -t  backend-flask ./backend-flask
+![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/screenshots/building%20container.png)
+
