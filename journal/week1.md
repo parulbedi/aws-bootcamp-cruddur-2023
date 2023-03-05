@@ -50,6 +50,9 @@
 ![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/screenshots/msedge_ppznGYjLWf.png)
 
 
+![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/screenshots/msedge_tw1gPb1AzH.png)
+
+
 ## Building and then running container
 ### docker build -t  backend-flask ./backend-flask
 ![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/screenshots/building%20container.png)
