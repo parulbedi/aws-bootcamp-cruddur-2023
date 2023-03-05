@@ -9,11 +9,6 @@
 ### cd backend-flask/
 ![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/screenshots/msedge_MSjFtJCQAY.png)
 
-## Exporting frontend & backend urls
-### export FRONTEND_URL="*"
-### export BACKEND_URL="*"
-![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/screenshots/msedge_IU3mtHe0ct.png)
-
 ## Running the following command to install the modules mentioned in requirements.txt file in backend-flask directory
 ### pip3 install -r requirements.txt
 ![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/screenshots/msedge_R5mbSMUXeF.png)
@@ -32,7 +27,29 @@
 #### step: 2
 ![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/screenshots/msedge_GkhPfiws6M.png)
 
+### Click on the link (it will show 404 error)
+![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/screenshots/msedge_U50j61znRv.png)
+
+### Appemd api endpoint "/api/activities/home" to your gitpod url link as below (it will show 500 server error)
+#### https://4567-parulbedi-awsbootcampcr-oql1596g36l.ws-us89.gitpod.io/api/activities/home
+
+## Exporting frontend & backend urls
+### export FRONTEND_URL="*"
+### export BACKEND_URL="*"
+![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/screenshots/msedge_IU3mtHe0ct.png)
+
+
+## Restart backend on port 4567 port
+### python3 -m flask run --host=0.0.0.0 --port=4567
+![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/screenshots/msedge_jKoQCslYmV.png)
+
+
+### Visit the link again and this time you will get a response in form of json
+#### https://4567-parulbedi-awsbootcampcr-oql1596g36l.ws-us89.gitpod.io/api/activities/home
+
+![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/screenshots/msedge_ppznGYjLWf.png)
+
+
 ## Building and then running container
 ### docker build -t  backend-flask ./backend-flask
 ![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/screenshots/building%20container.png)
-
