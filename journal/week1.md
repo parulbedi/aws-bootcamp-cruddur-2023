@@ -49,7 +49,9 @@
 
 ![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/screenshots/msedge_ppznGYjLWf.png)
 
-
+## Unset the env vars:
+### unset FRONTEND_URL
+### unset BACKEND_URL
 ![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/screenshots/msedge_tw1gPb1AzH.png)
 
 
