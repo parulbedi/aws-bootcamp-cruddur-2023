@@ -86,6 +86,7 @@
 ![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/screenshots/msedge_dKS7Y7y4U8.png)
 
 ### install npm package
+### npm i
 ![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/screenshots/msedge_wHt6autovk.png)
 
 ### create Dockerfile in frontend-react-js directory
@@ -112,6 +113,14 @@ CMD ["npm", "start"]
 ### build container
 ### docker build -t frontend-react-js ./frontend-react-js
 ![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/screenshots/msedge_H504qNYmVy.png)
+
+
+### run container
+### docker run -p 3000:3000 -d frontend-react-js
+![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/screenshots/msedge_mfviHgPvLJ.png)
+
+### unlock port 3000, Just go the port tab and click on Lock icon to unlock the port
+![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/screenshots/msedge_IQ4fVDlhJd.png)
 
 
 ### Create a file with name docker-compose.yml
@@ -145,11 +154,19 @@ networks:
     name: cruddur
 ```
 
+### to start the application run the following command
+### docker-compose up
+![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/screenshots/msedge_cx5NDFbGxy.png)
 
 
-### build container
-### docker run -p 3000:3000 -d frontend-react-js
-![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/screenshots/msedge_mfviHgPvLJ.png)
+### goto the ports tab and click on the link correspond to port 3000
+![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/screenshots/msedge_cmb0DIIu7u.png)
 
-### unlock port 3000, Just go the port tab and click on Lock icon to unlock the port
-![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/screenshots/msedge_IQ4fVDlhJd.png)
+
+### verify that the below highlighted data is visible when opening link, if no data is shown in this area,
+### then you may need to remove the containers running on port 4567 & 3000
+![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/screenshots/kCIBgcAn4U.png)
+
+
+### frontEnd of cruddur app is running which is communitcating with backEnd on port 4567
+![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/screenshots/msedge_Hvi28VcqXI.png)
