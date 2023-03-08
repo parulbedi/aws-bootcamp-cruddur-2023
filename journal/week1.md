@@ -80,5 +80,10 @@
 
 ### this time you will get a response in form of json
 #### https://4567-parulbedi-awsbootcampcr-lqhbj29hyja.ws-us89b.gitpod.io/api/activities/home
-
 ![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/screenshots/msedge_5J8ztKjXju.png)
+
+### change working directory to frontend-react-js directory
+![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/screenshots/msedge_dKS7Y7y4U8.png)
+
+### install npm package
+![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/screenshots/msedge_wHt6autovk.png)
