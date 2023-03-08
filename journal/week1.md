@@ -65,4 +65,5 @@
 ![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/screenshots/building%20container.png)
 
 ### Running container
+### docker run --rm -p 4567:4567 -it backend-flask
 ![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/screenshots/msedge_o2Xtlq9Ww7.png)
