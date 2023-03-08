@@ -68,12 +68,12 @@
 ### docker run --rm -p 4567:4567 -it backend-flask
 ![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/screenshots/msedge_o2Xtlq9Ww7.png)
 
-### It will through 404 error as Environment variables are yet set
+### It will through 404 error as Environment variables are yet not set
 ![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/screenshots/msedge_sqAuSuGTyy.png)
 
 ### api endpoints also return error (need to set env vars)
 ![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/screenshots/msedge_fHKyTyjCJq.png)
 
-### setting environment varibales and running container
+### setting environment varibales and running container again
 ### docker run --rm -p 4567:4567 -it -e FRONTEND_URL='*' -e BACKEND_URL='*' backend-flask
 ![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/screenshots/msedge_s4lH5mxhgN.png)
