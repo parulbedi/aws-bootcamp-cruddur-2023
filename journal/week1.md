@@ -87,3 +87,6 @@
 
 ### install npm package
 ![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/screenshots/msedge_wHt6autovk.png)
+
+### create Dockerfile in frontend-react-js directory
+![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/screenshots/msedge_JsqyAdYHlR.png)
