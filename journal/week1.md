@@ -92,7 +92,7 @@
 ![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/screenshots/msedge_JsqyAdYHlR.png)
 
 ### add the following script in Dockerfile
-```
+```dockerfile
 FROM node:16.18
 
 ENV PORT=3000
