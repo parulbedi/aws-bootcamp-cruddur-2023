@@ -58,5 +58,9 @@
 ## Building and then running container
 ### docker build -t  backend-flask ./backend-flask
 #### make sure that you are at root directory
+### Building container
 ![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/screenshots/msedge_UdK1Ik7yrc.png)
 ![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/screenshots/building%20container.png)
+
+### Running container
+![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/screenshots/msedge_o2Xtlq9Ww7.png)
