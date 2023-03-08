@@ -77,3 +77,8 @@
 ### setting environment varibales and running container again
 ### docker run --rm -p 4567:4567 -it -e FRONTEND_URL='*' -e BACKEND_URL='*' backend-flask
 ![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/screenshots/msedge_s4lH5mxhgN.png)
+
+### this time you will get a response in form of json
+#### https://4567-parulbedi-awsbootcampcr-lqhbj29hyja.ws-us89b.gitpod.io/api/activities/home
+
+![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/screenshots/msedge_5J8ztKjXju.png)
