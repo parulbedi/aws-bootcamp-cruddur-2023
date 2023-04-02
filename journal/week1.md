@@ -170,3 +170,6 @@ networks:
 
 ### frontEnd of cruddur app is running which is communitcating with backEnd on port 4567
 ![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/screenshots/msedge_Hvi28VcqXI.png)
+
+### Notification API endpoint is working
+![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/screenshots/msedge_kqs3k8vm0L.png)
