@@ -149,6 +149,22 @@ paths:
                 items:
                   $ref: '#/components/schemas/Message'
 
+  /api/activities/notifications:
+    get:
+      description: 'Return notifications of all people i follow'
+      tags:
+        - notifications
+      parameters: []
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Activity'
+
 components:
   schemas:
     Activity:
