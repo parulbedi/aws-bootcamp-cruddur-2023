@@ -173,3 +173,12 @@ networks:
 
 ### Notification API endpoint is working
 ![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/screenshots/msedge_kqs3k8vm0L.png)
+
+### Notification page is working
+![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/screenshots/msedge_95HUmjgUx5.png)
+
+### DynamoDB Local Container is running
+![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/screenshots/msedge_vFFug36jY4.png)
+
+### Postgres Container is running
+![Architecture image](https://github.com/parulbedi/aws-bootcamp-cruddur-2023/blob/main/screenshots/msedge_0Bqlo2OHsp.png)
