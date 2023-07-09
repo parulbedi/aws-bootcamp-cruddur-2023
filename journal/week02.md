@@ -18,14 +18,14 @@ export HONEYCOMB_API_KEY="Asw-XXXXXX-XXXXXXXXX-DXefG"
 gp env HONEYCOMB_API_KEY="Asw-XXXXXX-XXXXXXXXX-DXefG"
 ```
 ### add the following in docker-compose.yml under backend-flask
-```dockerfile
+```dockercompose
 OTEL_SERVICE_NAME: "backend-flask"
 OTEL_EXPORTER_OTLP_ENDPOINT: "https://api.honeycomb.io"
 OTEL_EXPORTER_OTLP_HEADERS: "x-honeycomb-team=${HONEYCOMB_API_KEY}"
 ```
 
 ### Add the following snippet of code in app.py under backend-flask
-```dockerfile
+```python
 from opentelemetry import trace
 from opentelemetry.instrumentation.flask import FlaskInstrumentor
 from opentelemetry.instrumentation.requests import RequestsInstrumentor
