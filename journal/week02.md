@@ -3,7 +3,8 @@
 
 ## Learned about Observability and Monitoring using Honeycomb, and use of Open telemetry with honeycomb for logging snd tracing the events within application
 
-### add the following in backend-flask --> requirements.txt file to install required libraries to work with Open telemetry
+### 1. Honeycomb
+### I added the following in backend-flask --> requirements.txt file to install required libraries to work with Open telemetry
 ```dockerfile
 opentelemetry-api 
 opentelemetry-sdk 
@@ -41,4 +42,24 @@ processor = BatchSpanProcessor(OTLPSpanExporter())
 provider.add_span_processor(processor)
 trace.set_tracer_provider(provider)
 tracer = trace.get_tracer(__name__)
+```
+
+### 2. Rollbar
+### I added the following in backend-flask --> requirements.txt file to install required libraries to work with Rollbar
+```python
+blinker
+rollbar
+```
+
+### Importing rollbar in app
+```python
+import os
+import rollbar
+import rollbar.contrib.flask
+from flask import got_request_exception 
+```
+### adding keys to gitpod env
+```python
+export ROLLBAR_ACCESS_TOKEN="765bb-XXXXXXX-XXXXXXXXXX-34a340a75"
+gp env ROLLBAR_ACCESS_TOKEN="765bb-XXXXXXX-XXXXXXXXXX-34a340a75"
 ```
