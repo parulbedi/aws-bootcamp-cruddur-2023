@@ -35,7 +35,7 @@ from opentelemetry.sdk.trace.export import BatchSpanProcessor
 ```
 
 ### Itialize the tracing , then this will send the data to Honeycomb
-```dockerfile
+```python
 provider = TracerProvider()
 processor = BatchSpanProcessor(OTLPSpanExporter())
 provider.add_span_processor(processor)
