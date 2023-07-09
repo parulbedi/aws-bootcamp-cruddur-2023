@@ -63,3 +63,14 @@ from flask import got_request_exception
 export ROLLBAR_ACCESS_TOKEN="765bb-XXXXXXX-XXXXXXXXXX-34a340a75"
 gp env ROLLBAR_ACCESS_TOKEN="765bb-XXXXXXX-XXXXXXXXXX-34a340a75"
 ```
+### Added rollbar token to docker compose
+```dockerfile
+  backend-flask:
+    environment:
+      FRONTEND_URL: "https://3000-${GITPOD_WORKSPACE_ID}.${GITPOD_WORKSPACE_CLUSTER_HOST}"
+      BACKEND_URL: "https://4567-${GITPOD_WORKSPACE_ID}.${GITPOD_WORKSPACE_CLUSTER_HOST}"
+      OTEL_SERVICE_NAME: "backend-flask"
+      OTEL_EXPORTER_OTLP_ENDPOINT: "https://api.honeycomb.io"
+      OTEL_EXPORTER_OTLP_HEADERS: "x-honeycomb-team=${HONEYCOMB_API_KEY}"
+      ROLLBAR_ACCESS_TOKEN: "${ROLLBAR_ACCESS_TOKEN}"
+```
