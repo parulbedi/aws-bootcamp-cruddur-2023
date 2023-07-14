@@ -7,7 +7,7 @@ trigger:
   branches:
     include:
     - feature3
-    - feature1
+    - refs/heads/feature1
     
 pool:
   vmImage: ubuntu-latest
