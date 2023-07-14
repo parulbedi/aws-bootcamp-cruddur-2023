@@ -3,26 +3,20 @@ trigger:
     include:
       - feature1
 
+pool:
+  vmImage: 'ubuntu-latest'
+
 jobs:
-  - job: myJob
-    pool:
-      vmImage: 'ubuntu-latest'
+- job: A
+  displayName: Job A
+  continueOnError: true # next job starts even if this one fails
+  steps:
+  - script: echo Job A ran
+  - script: exit 1
 
-    steps:
-      - task: Bash@3
-        displayName: 'First Task'
-        # Your first task configuration goes here
-        continueOnError: true  # Continue to the next step even if this task fails
-        name: myTask
-
-  - job: rerunFailedTaskJob
-    dependsOn: myJob
-    condition: succeededOrFailed()  # Run this job regardless of the previous job (myJob) result
-
-    steps:
-      - ${{ if eq(dependencies.myJob.myTask.result, 'Succeeded') }}:
-          script: echo 'Next Task'
-          displayName: 'Next Task'
-        ${{ else }}:
-          script: echo 'Rerun the task here'
-          displayName: 'Rerun Task'
+- job: B
+  dependsOn: A
+  condition: eq(dependencies.A.result,'SucceededWithIssues') # targets the result of the previous job 
+  displayName: Job B
+  steps:
+  - script: echo Job B ran
