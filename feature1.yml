@@ -1,17 +1,28 @@
-# Starter pipeline
-# Start with a minimal pipeline that you can customize to build and deploy your code.
-# Add steps that build, run tests, deploy, and more:
-# https://aka.ms/yaml
-
 trigger:
-- feature1
-pool:
-  vmImage: ubuntu-latest
-steps:
-- script: echo Hello, world!
-  displayName: 'Run a one-line script'
+  branches:
+    include:
+      - feature1
 
-- script: |
-    echo Add other tasks to build, test, and deploy your project.
-    echo See https://aka.ms/yaml
-  displayName: 'Run a multi-line script'
+jobs:
+  - job: myJob
+    pool:
+      vmImage: 'ubuntu-latest'
+
+    steps:
+      - task: Bash@3
+        displayName: 'First Task'
+        # Your first task configuration goes here
+        continueOnError: true  # Continue to the next step even if this task fails
+        name: myTask
+
+  - job: rerunFailedTaskJob
+    dependsOn: myJob
+    condition: succeededOrFailed()  # Run this job regardless of the previous job (myJob) result
+
+    steps:
+      - ${{ if eq(dependencies.myJob.myTask.result, 'Succeeded') }}:
+          script: echo 'Next Task'
+          displayName: 'Next Task'
+        ${{ else }}:
+          script: echo 'Rerun the task here'
+          displayName: 'Rerun Task'
